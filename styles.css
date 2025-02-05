@@ -1,12 +1,16 @@
 /* Gaya untuk body dengan latar belakang cream */
 body {
-    background-color: #f5f5dc; /* Warna cream */
+    background-image: url('img/bg.JPG'); /* URL gambar latar belakang */
+    background-size: cover; /* Gambar menutupi seluruh area */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Gambar tidak diulang */
+    background-attachment: fixed; /* Gambar tetap saat di-scroll */
     color: #333; /* Warna teks default */
 }
 
 /* Gaya untuk header */
 header {
-    background-color:  #f8f9fa !important; /* Warna biru */
+    background-color: rgba(255, 255, 255, 0.8); /* Warna biru dengan transparansi */
     color: white;
     padding: 60px 0;
 }
@@ -24,6 +28,9 @@ header .lead {
 /* Gaya untuk artikel pembuka */
 section {
     padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan */
+    border-radius: 10px; /* Sudut melengkung */
+    margin: 20px 0; /* Jarak dari elemen lain */
 }
 
 section h2 {
@@ -56,6 +63,7 @@ section p {
 .gallery-img:hover {
     transform: scale(1.05);
 }
+
 
 /* Gaya untuk footer */
 .footer {
