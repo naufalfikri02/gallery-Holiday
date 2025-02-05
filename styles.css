@@ -1,0 +1,75 @@
+/* Gaya untuk body dengan latar belakang cream */
+body {
+    background-color: #f5f5dc; /* Warna cream */
+    color: #333; /* Warna teks default */
+}
+
+/* Gaya untuk header */
+header {
+    background-color:  #f8f9fa !important; /* Warna biru */
+    color: white;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .lead {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+/* Gaya untuk artikel pembuka */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Gaya untuk galeri */
+#gallery .col-md-4 {
+    padding: 5px; /* Mengurangi padding antar kolom */
+}
+
+.gallery-img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 5px solid white; /* Bingkai putih untuk gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk gambar */
+    width: 100%; /* Pastikan gambar mengisi kolom */
+    height: auto; /* Menjaga aspek rasio gambar */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Gaya untuk footer */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    padding: 20px 0;
+    margin-top: 50px; /* Memberikan jarak antara konten dan footer */
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
