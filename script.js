@@ -19,6 +19,7 @@ const lyricsText = document.getElementById('lyrics-text');
 
 // Contoh lirik lagu (bisa diisi manual atau dinamis)
 const lyrics = `
+[Lyrics translation]
 Black and white photo sheets
 Remembering the night again, I count the stars
 When my eyes have trouble sleeping, mm-mm
