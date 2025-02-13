@@ -10,7 +10,7 @@ body {
 
 /* Gaya untuk header */
 header {
-    background-color: rgba(255, 255, 255, 0.8); /* Warna biru dengan transparansi */
+    background-color: rgba(255, 255, 255, 0.8); 
     color: white;
     padding: 60px 0;
 }
@@ -23,6 +23,12 @@ header h1 {
 header .lead {
     font-size: 1.25rem;
     opacity: 0.9;
+}
+
+/* Gaya untuk tombol */
+#play-music-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
 }
 
 /* Gaya untuk artikel pembuka */

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Holiday</title>
+    <link rel="icon" type="image/x-icon" href="img/Favicon.jpg">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,7 +15,8 @@
     <header class="bg-with text-black text-center py-4">
         <div class="container">
             <h1>Valentine's Day!</h1>
-            <!-- <p class="lead">Nikmati koleksi foto-foto menarik yang kami sajikan untuk Anda.</p> -->
+            <button id="play-music-btn" class="btn btn-primary mt-3">Play Music</button>
+            <button id="stop-music-btn" class="btn btn-danger mt-3" style="display: none;">Stop Music</button>
         </div>
     </header>
     <!-- Artikel Pembuka -->
@@ -31,10 +33,7 @@
                     and I wish your day is filled with smiles, laughter, and all the things you love. Happy Valentine's Day!.
                      Best wishes from your friends in Kerinci."
                 </p>
-                <!-- <p class="text-muted">
-                    Jangan ragu untuk mengklik foto-foto di bawah ini untuk melihatnya dalam ukuran yang lebih besar. 
-                    Selamat menikmati!
-                </p> -->
+                
             </div>
         </div>
     </section>
@@ -56,7 +55,7 @@
                 <img src="img/5.JPG" class="img-fluid gallery-img" alt="on Pelangi coffee">
             </div>
             <div class="col-md-4 mb-4">
-                <img src="img/3.JPG" class="img-fluid gallery-img" alt="on Waterfall">
+                <img src="img/3.JPG" class="img-fluid gallery-img" alt="On Waterfall">
             </div>
             <div class="col-md-4 mb-4">
                 <img src="img/6.JPG" class="img-fluid gallery-img" alt="on Hill of Khayangan">
@@ -65,10 +64,10 @@
                 <img src="img/8.JPG" class="img-fluid gallery-img" alt="on Hill of Khayangan">
             </div>
             <div class="col-md-4 mb-4">
-                <img src="img/9.JPG" class="img-fluid gallery-img" alt="on Hill of Khayangan">
+                <img src="img/9.JPG" class="img-fluid gallery-img" alt="Depati Coffee and mini zoo">
             </div>
             <div class="col-md-4 mb-4">
-                <img src="img/10.JPG" class="img-fluid gallery-img" alt="on Hill of Khayangan">
+                <img src="img/10.JPG" class="img-fluid gallery-img" alt="Kerinci traditional clothes">
             </div>
         </div>
     </div>
@@ -96,6 +95,8 @@
             </span>
         </div>
     </footer>
+     <!-- Elemen Audio -->
+     <audio id="background-music" src="Tulus-monokrom.mp3" loop></audio>
 
     <!-- Bootstrap JS dan Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
